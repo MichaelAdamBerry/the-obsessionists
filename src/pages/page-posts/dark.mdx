@@ -1,0 +1,27 @@
+import { css } from '@emotion/core';
+
+import Layout from '../../components/layout';
+import DarkChart from '../../components/dark-chart';
+
+<Layout>
+  <div className="content-boundary">
+    <h3>Visual Aids for Netflix's Dark Season 2</h3>
+    <p
+      css={css`
+        font-style: italic;
+      `}
+    >
+      Season 2 of Dark was just as mind bending as the first season
+    </p>
+    <p
+      css={css`
+        font-family: var(--headline);
+        font-weight: 800;
+        border-bottom: solid;
+      `}
+    >
+      Caution: Season 2 Spoilers Ahead
+    </p>
+    <DarkChart />
+  </div>
+</Layout>
