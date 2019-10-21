@@ -6,4 +6,4 @@ Sources of inspiration include Lapham's Quarterly, McSweeney's Internet Tendenci
 
 ## Volumn One : Time Travel 
 
-![Overview of the general look and feel when scrolling down the site. Articles and colorful illustrations](https://res.cloudinary.com/dscjol9s7/video/upload/v1571686652/obsessionist-mp4-1_gra3lb.mp4)
+![Articles and colorful illustrations](https://res.cloudinary.com/dscjol9s7/video/upload/v1571686652/obsessionist-mp4-1_gra3lb.mp4)
