@@ -7,9 +7,9 @@ import SectionTitle from './section-title';
 const LatestSection = () => {
   const getPostsFromTitles = () => {
     const titles = [
-      'Best Movie Time Machines',
-      'Dr. Who - Space-Time Pioneer',
-      'The Real Winner of Back to the Future - A Case for Huey Lewis',
+      'Everything I Know About Ethics I Learned Inside a Time Loop',
+      "Joseph Campbell's Corner - Time Machines Run on Regret",
+      'The Paradoxes that Govern Time Travel',
     ];
     console.log('titles', titles);
     const posts = usePosts();
@@ -50,7 +50,7 @@ const LatestSection = () => {
             }
           `}
         >
-          <h3 className="content-boundary">The Latest</h3>
+          <h3 className="content-boundary">intelligentsia</h3>
           <div className="line-accent"></div>
         </SectionTitle>
       </div>

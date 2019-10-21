@@ -33,7 +33,7 @@ const TopSection = () => {
     const titles = [
       'A Note on Time Traveling',
       'Best Movie Time Machines',
-      'Visual Aids : Dark Season 2',
+      'A Note on Time Traveling',
     ];
     console.log('titles', titles);
     const posts = usePosts();
@@ -59,13 +59,53 @@ const TopSection = () => {
       <div
         css={css`
           min-height: 100vh;
+          width: 100%;
+          display: grid;
+          grid-template-column: 50% 50%;
+          grid-template-rows: 1fr;
+          margin-bottom: 2rem;
+
+          @media (max-width: 600px) {
+            display: block;
+          }
         `}
       >
-        <img
-          alt="title card with illustration collage of charcters from films with time travel"
-          src="../images/time-travel-title-card-3.svg"
-        />{' '}
+        <div
+          css={css`
+            grid-row: 1;
+            grid-column: 1/2;
+          `}
+        >
+          <img
+            alt="text poster reading obessionists volume one : time travel"
+            src="../images/time-travel-text-main-title-card.svg"
+          />
+        </div>
+        <div
+          css={css`
+            grid-row: 1;
+            grid-column: 2/3;
+            background-image: url('../images/time-travel-poster-1.png');
+            background-size: cover;
+          `}
+        ></div>
       </div>
+
+      <h2
+        css={css`
+          text-align: center;
+          margin-top: 2rem;
+          padding-top: 1rem;
+          border-top: solid var(--red);
+          max-width: 700px;
+          margin: auto;
+        `}
+      >
+        {' '}
+        The obession-ists <br></br> breaking down the stories we tell one idea
+        at a time.
+      </h2>
+
       <ThreeColLayout postArray={postArray} buttonObj={buttonObj} />
     </>
   );
