@@ -35,7 +35,7 @@
     "gatsby-remark-spotify": "^1.0.1",
     "gatsby-source-filesystem": "^2.1.5",
     "gatsby-source-instagram": "^0.5.1",
-    "gatsby-transformer-remark": "^2.6.9",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
